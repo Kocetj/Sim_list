@@ -1,0 +1,11 @@
+<configuration>
+    <input>
+        <net-file value="sim_list.net.xml"/>
+        <route-files value="sim_list.rou.xml"/>
+        <gui-settings-file value="sim_list.settings.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="10000"/>
+    </time>
+</configuration>

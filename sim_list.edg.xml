@@ -1,0 +1,13 @@
+<edges>
+    <edge from="N1" id="1" to="N2" />
+    <edge from="N2" id="2" to="N5" />
+    <edge from="N2" id="3" to="N4" />
+    <edge from="N1" id="4" to="N3" />
+    <edge from="N3" id="5" to="N4" />
+    <edge from="N4" id="6" to="N5" />
+    <edge from="N3" id="7" to="N6" />
+    <edge from="N4" id="8" to="N7" />
+    <edge from="N5" id="9" to="N8" />
+    <edge from="N6" id="10" to="N7" />
+    <edge from="N7" id="11" to="N8" />
+</edges>
