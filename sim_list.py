@@ -1,18 +1,10 @@
-import os, sys
-import time
-
-import traci
-import traci.constants
-
-sumoCmd = ["sumo-gui", "-c", "sim_list.sumocfg", "--start"]
-traci.start(sumoCmd)
-
-traci.gui.setSchema("View #0", "real world")
-
-j=0
-while (j < 1000):
-    traci.simulationStep()
-    j+=1
+import os
+import subprocess
 
 
-traci.close()
+sumo_path = r"C:\Program Files (x86)\Eclipse\Sumo\bin\sumo-gui.exe"
+sumo_config = "sim_list.sumocfg"
+
+sumo_cmd = [sumo_path, "-c", sumo_config, "--start"]
+
+subprocess.Popen(sumo_cmd)

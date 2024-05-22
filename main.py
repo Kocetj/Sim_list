@@ -126,4 +126,3 @@ print(optimalnaPorazdelitev)
 print(zasedenostCest(optimalnaPorazdelitev))
 
 narisiGrafResitve(optimalnaPorazdelitev)
-
